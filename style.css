@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+};
+
+:root{
+    --colorDark1: #112D4E;
+    --colorDark2: #3F72AF;
+    --colorLight1: #DBE2EF;
+    --colorLight2: #F9F7F7;
+}
+
+body{
+    max-width : 100vw;
+    max-height: 100vh;
+    color: var(--colorLight2);
+    background: linear-gradient(160deg ,#112D4E 0%,#3F72AF 100%);
+}
