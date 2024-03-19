@@ -4,12 +4,14 @@
   "description": "Tailwind",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "feather": "^0.0.5",
+    "react-scripts": "^5.0.1",
     "vite": "^5.0.5"
   },
   "devDependencies": {
